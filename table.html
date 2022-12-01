@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tablolar</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Tablolar</h1>
-</body>
+    <table border="10" width="100%">
+      <thead>
+        <tr>
+          <th>Ad</th>
+          <th>Soyad</th>
+          <th>Yaş</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Ali</td>
+          <td>Velioğlu</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>Ahmet</td>
+          <td rowspan="2">Mehmetoğlu</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>Murat</td>
+          <!-- <td>Mehmetoğlu</td> -->
+          <td rowspan="2">12</td>
+        </tr>
+        <tr>
+          <td>Sebastian</td>
+          <td>Vettel Jr.</td>
+          <!-- <td>12</td> -->
+        </tr>
+        <tr>
+            <td colspan="3" align="center">boş</td>
+            <!-- <td>boş</td>
+            <td>boş</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>

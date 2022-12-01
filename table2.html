@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablo Örneği</title>
+    <style>
+      td {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>tablo örnek</h1>
+
+    <table border="1" width="100%">
+      <h3>Costumer Information Table</h3>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Jobs</th>
+          <!-- <th>Jobs</th> -->
+          <th>Working Experience</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Henry</td>
+          <td colspan="2">Senior Developer</td>
+          <!-- <td>Senior Developer</td> -->
+          <td rowspan="2">5 year</td>
+        </tr>
+        <tr>
+          <td>Jason</td>
+          <td>Software Engneer</td>
+          <td>Fullstack Developer</td>
+          <!-- <td>5 year</td> -->
+        </tr>
+        <tr>
+          <td>Fred</td>
+          <td>Junor Developer</td>
+          <td>Backend Developer</td>
+          <td>2 Year</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
